@@ -15,3 +15,10 @@ stack = ["[", "]"]
 popped = stack.pop()
 print(f"popped: {popped} and new stack: {stack}")
 """
+import math
+
+integer = 30
+root=int(math.sqrt(integer))
+power=int(integer**0.5)
+print(f"{root}")
+print(f"{power}")
