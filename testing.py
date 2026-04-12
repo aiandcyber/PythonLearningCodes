@@ -22,3 +22,6 @@ root=int(math.sqrt(integer))
 power=int(integer**0.5)
 print(f"{root}")
 print(f"{power}")
+
+print(f"bninary of integer {bin(integer)}")
+print(f"binary after 2nd {bin(integer)[2:]}")
