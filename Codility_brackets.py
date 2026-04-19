@@ -1,12 +1,11 @@
-def solution(A):
+def solution(S):
     brackets = {"{":"}", "(":")", "[":"]"}
     result = []
-    if len(A) ==0:
+    if len(S) == 0:
         return 1
-    for i in A:
+    for i in S:
         if i in brackets.keys():
-            append_value = brackets.???
-            result.append(append_value)
+            result.append(brackets[i])
         elif i in brackets.values():
             if len(result) == 0:
                 return 0
@@ -17,5 +16,5 @@ def solution(A):
     else:
         return 0
 
-A = ["{","[","(",")","(",")","]","}"]
-print(solution(A))
+S = ["{","[","(",")","(",")","]","}"]
+print(solution(S))
